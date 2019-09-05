@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Bootstrap Example</title>
+        <title>Moonlite all Nite restaurant</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/assets/css/style.css">
@@ -14,32 +14,44 @@
     <body>
         <div class="container-fluid">
             <header class="row justify-content-lg-around">
-                <a href="#" target="blank" class="col">menu</a>
-                <a href="#" target="blank" class="col">pictures</a>
-                <a href="#" target="blank" class="col">home</a>
-                <a href="#" target="blank" class="col">moonlite</a>
-                <a href="#" target="blank" class="col">contact</a>
+                <div class="pos-f-t">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="p-4">
+                            <a href="#" target="blank" class="col">menu</a>
+                            <a href="#" target="blank" class="col">pictures</a>
+                            <a href="#" target="blank" class="col">home</a>
+                            <a href="#" target="blank" class="col">moonlite</a>
+                            <a href="#" target="blank" class="col">contact</a>
+                        </div>
+                    </div>
+                    <nav class="navbar">
+                        <button class="navbar-toggler"  data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src="/assets/images/Cpb-wtnv-moonlite-apron-art_500x.png" alt="home" style="width: 15%; height:auto; border-radius: 50%; border:#111111 5px solid;">
+                        </button>
+                    </nav>
+                </div>
             </header>
             <div class="row justify-content-lg-center">
-              <article class="col-lg-7 col-xs-12">
-                <img src="/assets/images/Cpb-wtnv-moonlite-apron-art_500x.png" alt="Moonlite logo">
-              </article>  
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="row justify-content-lg-center">
+                        <article class="col-lg-4 events">
+                            <h3>Events</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quis aperiam est, dolorem quo architecto incidunt repellendus fugit id explicabo et saepe rerum fuga ea exercitationem at perspiciatis. Temporibus, ipsum!
+                            </p>
+                        </article>
+                        <article class="col-lg-4 promo">
+                            <h3>Promo</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat doloribus nemo! Voluptatem, sequi eaque earum quisquam recusandae numquam dolores, nisi eligendi debitis aut aspernatur ipsam ducimus accusantium ea dolor?
+                            </p>
+                        </article>
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-lg-center">
-                <article class="col-lg-4">
-                    <h3>Events</h3>
-                        
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quis aperiam est, dolorem quo architecto incidunt repellendus fugit id explicabo et saepe rerum fuga ea exercitationem at perspiciatis. Temporibus, ipsum!
-                    </p>
-                </article>
-                <article class="col-lg-4">
-                    <h3>Promo</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores placeat doloribus nemo! Voluptatem, sequi eaque earum quisquam recusandae numquam dolores, nisi eligendi debitis aut aspernatur ipsam ducimus accusantium ea dolor?
-                    </p>
-                </article>
-            </div>
+            <footer class="row">
+                credits: Photo by Lee Cartledge on Unsplash
+            </footer>
         </div>
     </body>
 </html>
