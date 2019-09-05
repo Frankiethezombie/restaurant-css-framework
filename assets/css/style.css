@@ -12,8 +12,13 @@
   text-align: center; }
 
 .container-fluid .navbar {
-  height: 50px;
-  margin-bottom: 10px; }
+  height: auto;
+  margin-bottom: 10px;
+  padding: 0; }
+
+.container-fluid .navbar-toggler {
+  margin: 0;
+  padding: 0; }
 
 .container-fluid .jumbotron {
   background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
@@ -31,6 +36,7 @@
   overflow: hidden; }
 
 .container-fluid article {
+  padding-top: 10px;
   background-color: #111111;
   text-align: center;
   margin: 0;
