@@ -3,10 +3,20 @@
     box-sizing: border-box;
 }
 
+@font-face
+{
+    font-family: myFont;
+    src:url(../fonts/LswDrachenklaueRegular-olYV.ttf);
+}
+
 
 .container-fluid
 {
-    background-color: #111111;
+    background-color: rgb(41, 21, 39);;
+    background-image: url(/assets/images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: center;
 }
 header
 {
@@ -25,13 +35,13 @@ a
 {
     max-width: 100%;
     height: auto;
+    margin: 0;
 }
 
 .navbar
 {
     height:auto;
     margin-bottom: 10px;
-    padding: 0;
 }
 .navbar-toggler
 {
@@ -41,15 +51,13 @@ a
 
 .jumbotron
 {
-    background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
+    /*background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    background-color: #111111 !important;
     text-align: center;
-    height: 100vh;
-    margin: 0;
     align-items: center;
-    padding:0;
-    overflow: hidden;
+    margin-top:25px;
 }
 
 article
@@ -62,6 +70,12 @@ article
 }
 
 h3
+{
+    text-align: center;
+    color: aquamarine;
+}
+
+h5
 {
     text-align: center;
     color: aquamarine;
@@ -92,13 +106,14 @@ footer
 
 .endform
 {
-    background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
     align-items: center;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #111111;
+}
+textarea.form-control 
+{
+    height: 125px !important;
 }
 
 .form-check

@@ -2,8 +2,18 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+@font-face {
+  font-family: myFont;
+  src: url(../fonts/LswDrachenklaueRegular-olYV.ttf); }
+
 .container-fluid {
-  background-color: #111111; }
+  background-color: #291527;
+  background-image: url(/assets/images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 header {
   color: white;
@@ -16,29 +26,27 @@ a {
 
 .img-fluid {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin: 0; }
 
 .navbar {
   height: auto;
-  margin-bottom: 10px;
-  padding: 0; }
+  margin-bottom: 10px; }
 
 .navbar-toggler {
   margin: 0;
   padding: 0; }
 
 .jumbotron {
-  background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  /*background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;*/
+  background-color: #111111 !important;
   text-align: center;
-  height: 100vh;
-  margin: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0;
-  overflow: hidden; }
+  margin-top: 25px; }
 
 article {
   padding-top: 10px;
@@ -48,6 +56,10 @@ article {
   overflow: hidden; }
 
 h3 {
+  text-align: center;
+  color: aquamarine; }
+
+h5 {
   text-align: center;
   color: aquamarine; }
 
@@ -69,15 +81,15 @@ footer {
   border-right: white 2px solid; }
 
 .endform {
-  background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
-  margin: 0;
-  padding: 0; }
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #111111; }
+
+textarea.form-control {
+  height: 125px !important; }
 
 .form-check {
   background-color: #111111; }
