@@ -26,6 +26,7 @@ The website must be responsive, at least for small and medium screens. It must a
 * Spy photo by Austin distel on [Unsplash](https://unsplash.com/photos/4r72LPFh4Ik)
 * Camera photo by Bernard Hermant on [Unsplash](https://unsplash.com/photos/IhcSHrZXFs4)
 * Strawberry pie br Reuben Mcfeeters on [Unsplash](https://unsplash.com/photos/qnCzQRAoIr4)
+*LSW Drachenklaue Font by Ret Samys on [fontspace](https://www.fontspace.com/ret-samys/lsw-drachenklaue)
 
 
 # tools:
