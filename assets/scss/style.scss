@@ -81,6 +81,11 @@ h5
     color: aquamarine;
 }
 
+h6
+{
+    color: white;
+}
+
 p
 {
     text-align: center;
@@ -119,4 +124,17 @@ textarea.form-control
 .form-check
 {
     background-color: #111111
+}
+
+.schedule
+{
+    color:white;
+    border-top: 1px solid aquamarine;
+    padding-top:10px;
+}
+
+.list-group-item
+{
+    background-color: #111111 !important;
+    color:white;
 }
