@@ -2,61 +2,83 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-.container-fluid header {
+.container-fluid {
+  background-color: #111111; }
+
+header {
   color: white;
   background-color: #111111;
   text-align: center; }
 
-.container-fluid a {
+a {
   color: white;
   text-align: center; }
 
-.container-fluid .navbar {
+.img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.navbar {
   height: auto;
   margin-bottom: 10px;
   padding: 0; }
 
-.container-fluid .navbar-toggler {
+.navbar-toggler {
   margin: 0;
   padding: 0; }
 
-.container-fluid .jumbotron {
+.jumbotron {
   background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   height: 100vh;
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 0;
   overflow: hidden; }
 
-.container-fluid article {
+article {
   padding-top: 10px;
   background-color: #111111;
   text-align: center;
   margin: 0;
   overflow: hidden; }
 
-.container-fluid h3 {
+h3 {
   text-align: center;
   color: aquamarine; }
 
-.container-fluid p {
+p {
   text-align: center;
   color: white;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left; }
 
-.container-fluid footer {
+footer {
   background-color: #111111;
   color: aquamarine; }
 
-.container-fluid .events {
+.aboutus {
+  padding-bottom: 15px; }
+
+.events {
   border-right: white 2px solid; }
+
+.endform {
+  background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+
+.form-check {
+  background-color: #111111; }
 /*# sourceMappingURL=style.css.map */
