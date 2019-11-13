@@ -13,7 +13,8 @@
   background-size: cover;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  min-height: 100vh; }
 
 header {
   color: white;
@@ -38,9 +39,6 @@ a {
   padding: 0; }
 
 .jumbotron {
-  /*background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;*/
   background-color: #111111 !important;
   text-align: center;
   -webkit-box-align: center;
@@ -75,8 +73,11 @@ p {
 
 footer {
   background-color: #111111;
-  color: aquamarine;
-  position: absolute; }
+  color: #7fffd4;
+  bottom: 0; }
+
+#gallery {
+  height: 100vh; }
 
 .aboutus {
   padding-bottom: 15px; }
