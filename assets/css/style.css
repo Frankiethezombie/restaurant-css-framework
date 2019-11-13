@@ -8,12 +8,13 @@
 
 .container-fluid {
   background-color: #291527;
-  background-image: url(/assets/images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
+  background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  height: 100vh; }
 
 header {
   color: white;
@@ -38,9 +39,6 @@ a {
   padding: 0; }
 
 .jumbotron {
-  /*background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;*/
   background-color: #111111 !important;
   text-align: center;
   -webkit-box-align: center;
