@@ -8,7 +8,7 @@
 
 .container-fluid {
   background-color: #291527;
-  background-image: url(/assets/images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
+  background-image: url(../images/lee-cartledge-NBhXcKunJL8-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-pack: center;
@@ -75,7 +75,8 @@ p {
 
 footer {
   background-color: #111111;
-  color: aquamarine; }
+  color: aquamarine;
+  position: absolute; }
 
 .aboutus {
   padding-bottom: 15px; }
