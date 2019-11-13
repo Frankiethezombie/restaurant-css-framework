@@ -1,6 +1,8 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  min-height: 100vh;
+  position: relative; }
 
 @font-face {
   font-family: myFont;
@@ -73,7 +75,9 @@ p {
 
 footer {
   background-color: #111111;
-  color: aquamarine; }
+  color: aquamarine;
+  bottom: 0;
+  position: absolute; }
 
 .aboutus {
   padding-bottom: 15px; }

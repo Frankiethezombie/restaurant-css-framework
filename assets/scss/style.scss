@@ -1,6 +1,8 @@
 *
 {
     box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
 }
 
 @font-face
@@ -95,6 +97,8 @@ footer
 {
     background-color: #111111;
     color: aquamarine;
+    bottom: 0;
+    position: absolute;
 }
 
 .aboutus
